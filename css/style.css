@@ -1,0 +1,19 @@
+h1{
+    /* chỉ định thuộc tính cho phần tử h1 */
+    color: red;
+}
+p{
+    /* chỉ định thuộc tính cho phần tử p */
+    color: rgb(8, 8, 227);
+    font-size: 15px; /* kích thước chữ */
+    font-family: Arial, Helvetica, sans-serif; /* font chữ */
+    text-align: center; /* canh chữ ra giữa */
+    line-height: 1.5; /* khoảng cách giữa các dòng */
+    text-transform: none; /* chữ thường */
+    text-decoration: none; /* gạch chân chữ */
+    font-weight: 400; /* độ đậm của chữ */
+    word-spacing: 1px; /* khoảng cách giữa các từ */
+    width: 600px; /* độ rộng của đoạn văn */
+    background-color: aliceblue; /* màu nền */
+    border-bottom: 1px solid black; /* viền dưới */
+}
