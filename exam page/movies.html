@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Movies Trend — Movies</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-head">
+    <div class="container head-row">
+      <a class="brand" href="home.html">Flim<span>Hot</span></a>
+      <nav class="nav">
+        <a href="home.html" data-page="home">Home</a>
+        <a href="about.html" data-page="about">About Us</a>
+        <a href="movies.html" data-page="movies">Movies</a>
+        <a href="favorites.html" data-page="favorites">Favorites</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Movies</h1>
+    <div class="filters">
+      <input type="search" placeholder="Search title…" />
+      <select>
+        <option>All Genres</option>
+        <option>Action</option>
+        <option>Drama</option>
+        <option>Sci-Fi</option>
+      </select>
+    </div>
+
+    <div class="grid-4">
+      <!-- thêm/bớt thẻ article tuỳ ý -->
+      <article class="card">
+        <img src="images/mindnight.jpg" alt="Poster 1" />
+        <h3>Midnight Chase</h3>
+        <p class="muted">Action • 2024 • 118 min</p>
+        <a class="btn small" href="#">Add to Favorites</a>
+      </article>
+
+      <article class="card">
+        <img src="images/silent.jpg" alt="Poster 2" />
+        <h3>Silent Echo</h3>
+        <p class="muted">Drama • 2023 • 102 min</p>
+        <a class="btn small" href="#">Add to Favorites</a>
+      </article>
+
+      <article class="card">
+        <img src="images/neon.jpg" alt="Poster 3" />
+        <h3>Neon City</h3>
+        <p class="muted">Sci-Fi • 2025 • 126 min</p>
+        <a class="btn small" href="#">Add to Favorites</a>
+      </article>
+
+      <article class="card">
+        <img src="images/endless.jpg" alt="Poster 4" />
+        <h3>Endless Road</h3>
+        <p class="muted">Adventure • 2022 • 110 min</p>
+        <a class="btn small" href="#">Add to Favorites</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="container foot-row">
+      <p>© 2025 MyMovies</p>
+      <p><a href="about.html">About</a> • <a href="movies.html">Movies</a> • <a href="favorites.html">Favorites</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>window.__PAGE__="movies"</script>
+</body>
+</html>
